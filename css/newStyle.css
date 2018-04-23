@@ -21,7 +21,7 @@ header{
     width:100%;
     height: 70;
     background-color: #085394;
-    z-index: 1;
+    z-index: 3;
 }
 ul{
     position: fixed;
@@ -96,7 +96,7 @@ ul a li:hover{
     font-family: "Microsoft JhengHei";
     font-size: 25px;
     top: 565px;
-    left: 16%;
+    left: 14%;
     width: 1350;
     height: 100;
     z-index: 2;
@@ -112,7 +112,7 @@ ul a li:hover{
     position: absolute;
     background-color: black;
     top: 560px;
-    left: 15%;
+    left: 13%;
     width: 1400;
     height: 200;
     opacity: 0.5;
@@ -121,7 +121,7 @@ ul a li:hover{
 .main_news_img img{
     position: absolute;
     top: 15%;
-    left: 15%;
+    left: 13%;
     width: 1400;
     height: 660;
 
@@ -136,7 +136,7 @@ ul a li:hover{
 .news_block_1{
     position: absolute;
     background-color: #eeeeee;
-    left: 15%;
+    left: 13%;
     top: 150px;
     width: 1400;
     height: 250;
@@ -144,7 +144,7 @@ ul a li:hover{
 .news_block_2{
     position: absolute;
     background-color: #eeeeee;
-    left: 15%;
+    left: 13%;
     top: 500px;
     width: 1400;
     height: 250;
@@ -152,7 +152,7 @@ ul a li:hover{
 .news_block_3{
     position: absolute;
     background-color: #eeeeee;
-    left: 15%;
+    left: 13%;
     top: 850px;
     width: 1400;
     height: 250;
@@ -161,18 +161,18 @@ ul a li:hover{
     position: absolute;
     font-size: 25px;
     top: 28%;
-    left: 6%;;
+    left: 4%;;
 }
 .news_img img{
     position: absolute;
     top: 8%;
-    left: 20%;
+    left: 18%;
     width: 300;
     height: 200;
 }
 .news_contact{
     position: absolute;
-    left: 48%;
+    left: 46%;
     top: 4%;
     width: 580;
     font-family: "Microsoft JhengHei";
@@ -201,7 +201,7 @@ ul a li:hover{
     font-family: 'Arial';
     font-size: 25px;
     top: 1150px;
-    left:42%;
+    left: 40%;
 }
 .change_page a{
     padding-left: 20px;
