@@ -1,0 +1,215 @@
+
+body{
+    display: block;
+    margin: 0;
+    width:100%;
+}
+
+.container{
+    width: 100%;
+    height: 1900;
+}
+
+/*header*/
+header{
+    position: relative;
+    width:100%;
+    height: 70;
+}
+.column_background{
+    position: fixed;
+    width:100%;
+    height: 70;
+    background-color: #085394;
+    z-index: 1;
+}
+ul{
+    position: fixed;
+    right:18%;
+    z-index: 3;
+}
+ul li{
+    display: inline-block;
+    margin-right: 100;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bolder;
+    color: white;
+}
+ul a li:hover{
+    color: red;
+}
+#logo{
+    position: fixed;
+    width: 200px;
+    height: 70;
+    z-index: 3;
+}
+#fb{
+    position: fixed;
+    width: 48;
+    height: 48;
+    right: 15%;
+    top: 1%;
+    z-index: 3;
+}
+#ig{
+    position: fixed;
+    width: 48;
+    height: 48;
+    right: 10%;
+    top: 1%;
+    z-index: 3;
+}
+#youtube{
+    position: fixed;
+    width: 48;
+    height: 48;
+    right: 5%;
+    top: 1%;
+    z-index: 3;
+}
+
+/*Home_Screen*/
+.Home_Screen{
+    position: relative;
+    width: 100%;
+    height: 664;
+}
+.title{
+    position: absolute;
+
+    top: 3%;
+    left: 16%;
+}
+.title h1{
+    font-family: "Arial","Microsoft JhengHei";
+    margin:0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.word{
+    position: absolute;
+    color: white;
+    font-family: "Microsoft JhengHei";
+    font-size: 25px;
+    top: 565px;
+    left: 16%;
+    width: 1350;
+    height: 100;
+    z-index: 2;
+}
+.word p a{
+    text-decoration: none;
+    color:white;
+}
+.word p a:hover{
+    color:orange;
+}
+.column_word{
+    position: absolute;
+    background-color: black;
+    top: 560px;
+    left: 15%;
+    width: 1400;
+    height: 200;
+    opacity: 0.5;
+    z-index: 1;
+}
+.main_news_img img{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 1400;
+    height: 660;
+
+}
+
+/*news_block*/
+.news_block{
+    position: relative;
+    width:100%;
+    height:1200;
+}
+.news_block_1{
+    position: absolute;
+    background-color: #eeeeee;
+    left: 15%;
+    top: 150px;
+    width: 1400;
+    height: 250;
+}
+.news_block_2{
+    position: absolute;
+    background-color: #eeeeee;
+    left: 15%;
+    top: 500px;
+    width: 1400;
+    height: 250;
+}
+.news_block_3{
+    position: absolute;
+    background-color: #eeeeee;
+    left: 15%;
+    top: 850px;
+    width: 1400;
+    height: 250;
+}
+.time{
+    position: absolute;
+    font-size: 25px;
+    top: 28%;
+    left: 6%;;
+}
+.news_img img{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    width: 300;
+    height: 200;
+}
+.news_contact{
+    position: absolute;
+    left: 48%;
+    top: 4%;
+    width: 580;
+    font-family: "Microsoft JhengHei";
+    font-size: 20px;
+}
+.news_contact p a{
+    font-family: "Arial";
+    text-decoration: none;
+}
+.news_contact p a:hover{
+    color: rgba(0, 162, 255, 0.568);
+}
+.news_contact a h3{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: bolder;
+    color: #2b78e4;
+}
+.news_contact a{
+    text-decoration: none;
+}  /*消除標題底線*/
+.news_contact{
+    position: absolute;
+}
+.change_page {
+    position: absolute;
+    font-family: 'Arial';
+    font-size: 25px;
+    top: 1150px;
+    left:42%;
+}
+.change_page a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}/*消除標題底線*/
+.change_page a:hover{
+    color: rgba(0, 162, 255, 0.568);
+}
+
+
