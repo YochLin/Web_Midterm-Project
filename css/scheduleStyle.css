@@ -1,0 +1,262 @@
+html{
+    margin: 0;
+    width: 100%;
+}
+body{
+    display: block;
+    margin: 0;
+    width:100%;
+}
+
+.container{
+    position: relative;
+    /*background-image: url('../image/nba_main.png');  /*改背景圖片地方*/
+    /*background-size: 100% 100%;*/
+    width: 100%;
+    height: 100%;
+    height: 1400px;
+}
+
+/*header所有元件*/
+header{
+    position: relative;
+    width:100%;
+    height: 70px;
+}
+.column_background{
+    position: fixed;
+    width:100%;
+    height: 70px;
+    background-color: #085394;
+    z-index: 3;
+}
+header ul{
+    position: fixed;
+    right:18%;
+    z-index: 3;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 100px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bolder;
+    color: white;
+}
+header ul a li:hover{
+    color: red;
+}
+#logo{
+    position: fixed;
+    width: 200px;
+    height: 70px;
+    z-index: 3;
+}
+#fb{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 15%;
+    top: 1%;
+    z-index: 3;
+}
+#ig{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 10%;
+    top: 1%;
+    z-index: 3;
+}
+#youtube{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 5%;
+    top: 1%;
+    z-index: 3;
+}
+
+/*Home_Screen*/
+.Home_Screen{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 150px;
+}
+
+.title{
+    position: absolute;
+    height: 100px;
+    top: 0%;
+    left: 24%;
+}
+
+.title h1{
+    font-family: "Arial","Microsoft JhengHei";
+    margin:0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.title_img {
+    margin-right: 400px;
+    margin-top: 0px;
+    float:right;
+    height:100px;
+}
+
+#cpbl { 
+    width: 99px;
+    height: 51px;
+}
+
+#nba {
+    width: 40px;
+    height: 60px;
+}
+
+#mlb {
+    width: 83px;
+    height: 44px;
+}
+
+#sbl {
+    width: 116px;
+    height: 34px;
+}
+
+.date{
+    position: absolute;
+    height: 150px;
+    top: 50%;
+    left: 25%;
+}
+.date h3{
+    font-family: "Arial","Microsoft JhengHei";
+    margin:0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*MLN賽事*/
+.mlb_schedule{
+    position: relative;
+    height: 350px;
+}
+.mlb_title h2{
+    margin-left: 480px;
+    margin-bottom: 12px;
+    font-family: 'Arial';
+    color: #085394;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mlb_schedule table{
+    float: left;
+    /* border: 1px black solid; */
+    /* border-collapse:collapse; */
+    margin-left: 480px;
+    margin-bottom: 5px;
+    width: 55%;
+    height: auto;
+}
+.mlb_schedule table tr td{
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
+
+/*SBL賽事*/
+.cpbl_schedule{
+    position: relative;
+    margin-top: 40px;
+    height: 250px;
+}
+.cpbl_title h2{
+    margin-left: 480px;
+    margin-bottom: 12px;
+    font-family: 'Arial';
+    color: #085394;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.cpbl_schedule table{
+    float: left;
+    /* border: 1px black solid; */
+    /* border-collapse:collapse; */
+    margin-left: 480px;
+    margin-bottom: 5px;
+    width: 55%;
+    height: auto;
+}
+.cpbl_schedule table tr td{
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
+/*NBA賽事*/
+.nba_schedule{
+    display: inline-block;
+    position: relative;
+    height: 250px;
+}
+.nba_title h2{
+    margin-left: 400px;
+    margin-bottom: 12px;
+    font-family: 'Arial';
+    color: #085394;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.nba_schedule table{
+    float: left;
+    /* border: 1px black solid; */
+    /* border-collapse:collapse; */
+    margin-left: 400px;
+    margin-bottom: 5px;
+    width: 68%;
+    height: auto;
+}
+.nba_schedule table tr td{
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
+/*SBL賽事*/
+.sbl_schedule{
+    display: inline-block;
+    position: relative;
+    height: 250px;
+}
+.sbl_title h2{
+    margin-left: 200px;
+    margin-bottom: 12px;
+    font-family: 'Arial';
+    color: #085394;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sbl_schedule table{
+    float: left;
+    /* border: 1px black solid; */
+    /* border-collapse:collapse; */
+    margin-left: 200px;
+    margin-bottom: 5px;
+    width: 88%;
+    height: auto;
+}
+.sbl_schedule table tr td{
+    font-family: 'Arial', "Microsoft JhengHei";
+    font-size: 25px;
+}
+
+footer{
+    position: absolute;
+    width:100%;
+    height: 130px;
+    background-color: #cccccc;
+}
