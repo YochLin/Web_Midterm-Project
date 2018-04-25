@@ -96,7 +96,7 @@ header ul a li:hover{
 /*主圖片大小*/
 .slider_container img{
     position: absolute;
-    width: 1140px;
+    width: 60%;
     height: 520px;
 }
 /*將主圖片重疊*/
