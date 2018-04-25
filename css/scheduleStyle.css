@@ -92,7 +92,7 @@ header ul a li:hover{
     position: absolute;
     height: 100px;
     top: 0%;
-    left: 24%;
+    left: 20%;
 }
 
 .title h1{
@@ -103,7 +103,7 @@ header ul a li:hover{
 }
 
 .title_img {
-    margin-right: 400px;
+    margin-right: 280px;
     margin-top: 0px;
     float:right;
     height:100px;
@@ -131,7 +131,7 @@ header ul a li:hover{
 
 .date{
     position: absolute;
-    height: 150px;
+    height: 50px;
     top: 50%;
     left: 25%;
 }
@@ -145,11 +145,12 @@ header ul a li:hover{
 /*MLN賽事*/
 .mlb_schedule{
     position: relative;
-    height: 350px;
+    height: 380px;
+    top: -4%;
 }
 .mlb_title h2{
     margin-left: 480px;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     font-family: 'Arial';
     color: #085394;
     font-size: 30px;
@@ -157,8 +158,6 @@ header ul a li:hover{
 }
 .mlb_schedule table{
     float: left;
-    /* border: 1px black solid; */
-    /* border-collapse:collapse; */
     margin-left: 480px;
     margin-bottom: 5px;
     width: 55%;
@@ -170,15 +169,22 @@ header ul a li:hover{
 }
 
 
-/*SBL賽事*/
+/*CPBL賽事*/
 .cpbl_schedule{
     position: relative;
-    margin-top: 40px;
-    height: 250px;
+    margin-top: 250px;
+    height: 190px;
 }
+
+.cpbl_title {
+    margin-top:0px;
+    float: left;
+}
+
 .cpbl_title h2{
+    margin-top: -40px;
     margin-left: 480px;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     font-family: 'Arial';
     color: #085394;
     font-size: 30px;
@@ -206,7 +212,7 @@ header ul a li:hover{
 }
 .nba_title h2{
     margin-left: 400px;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     font-family: 'Arial';
     color: #085394;
     font-size: 30px;
@@ -234,7 +240,7 @@ header ul a li:hover{
 }
 .sbl_title h2{
     margin-left: 200px;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     font-family: 'Arial';
     color: #085394;
     font-size: 30px;

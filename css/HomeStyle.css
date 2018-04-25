@@ -286,15 +286,17 @@ header ul a li:hover{
     background-color: white;
 }
 .news_content{
+    
     position: absolute;
     left: 50%;
     top: 21%;
 }
 .news_content ul li{
+    width:  450px;
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*商品主打區*/
@@ -396,11 +398,116 @@ header ul a li:hover{
     width: 200px;
     height: 300px;
 }
+
 .right_block_title{
     position: absolute;
     left: 30%;
     font-size: 25px;
     font-family: 'Arial';   
+}
+
+.right_block h3 {
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    font-size: 20px;
+    font-family: 'Arial';   
+}
+
+.mlb_score {
+    margin-top: 80px;
+}
+
+.mlb_title {
+    position: absolute;
+    top:7%;
+    left: 43%;
+    font-size: 21px;
+    font-family: 'Arial';   
+}
+
+.mlb_score table{
+    float: right;
+    margin-top: 75px;
+    margin-right: 90px;
+    margin-bottom: 5px;
+    height: auto;
+}
+.mlb_score table tr td{
+    font-family: 'Arial';
+    font-size: 10px;
+}
+
+.cpbl_score {
+    margin-top: 180px;
+}
+
+.cpbl_title {
+    position: absolute;
+    top:44%;
+    left: 42%;
+    font-size: 21px;
+    font-family: 'Arial';   
+}
+
+.cpbl_score table{
+    float: right;
+    margin-top: 50px;
+    margin-right: 95px;
+    margin-bottom: 5px;
+    height: auto;
+}
+.cpbl_score table tr td{
+    font-family: 'Arial';
+    font-size: 10px;
+}
+
+.nba_score {
+    margin-top: 180px;
+}
+
+.nba_title {
+    position: absolute;
+    top:51%;
+    left: 44%;
+    font-size: 21px;
+    font-family: 'Arial';   
+}
+
+.nba_score table{
+    float: right;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 5px;
+    height: auto;
+}
+.nba_score table tr td{
+    font-family: 'Arial';
+    font-size: 10px;
+}
+
+.sbl_score {
+    margin-top: 180px;
+}
+
+.sbl_title {
+    position: absolute;
+    top:64%;
+    left: 44%;
+    font-size: 21px;
+    font-family: 'Arial';   
+}
+
+.sbl_score table{
+    float: right;
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 5px;
+    height: auto;
+}
+.sbl_score table tr td{
+    font-family: 'Arial';
+    font-size: 10px;
 }
 
 footer{
