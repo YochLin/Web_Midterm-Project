@@ -1,0 +1,364 @@
+html{
+    margin: 0;
+    width: 100%;
+}
+body{
+    display: block;
+    margin: 0;
+    width:100%;
+}
+
+.container{
+    position: relative;
+    /*background-image: url('../image/nba_main.png');  /*改背景圖片地方*/
+    /*background-size: 100% 100%;*/
+    width: 100%;
+    height: 100%;
+    height: 1800px;
+}
+
+/*header所有元件*/
+header{
+    position: relative;
+    width:100%;
+    height: 70px;
+}
+.column_background{
+    position: fixed;
+    width:100%;
+    height: 70px;
+    background-color: #085394;
+    z-index: 3;
+}
+header ul{
+    position: fixed;
+    right:18%;
+    z-index: 3;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 100px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bolder;
+    color: white;
+}
+header ul a li:hover{
+    color: red;
+}
+#logo{
+    position: fixed;
+    width: 200px;
+    height: 70px;
+    z-index: 3;
+}
+#fb{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 15%;
+    top: 1%;
+    z-index: 3;
+}
+#ig{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 10%;
+    top: 1%;
+    z-index: 3;
+}
+#youtube{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    right: 5%;
+    top: 1%;
+    z-index: 3;
+}
+
+/*Home_Screen*/
+.Home_Screen{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 120px;
+}
+
+.title{
+    position: absolute;
+    height: 100px;
+    top: 0%;
+    left: 20%;
+}
+
+.title h1{
+    font-family: "Arial","Microsoft JhengHei";
+    margin:0;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.title_img {
+    margin-right: 280px;
+    margin-top: 0px;
+    float:right;
+    height:100px;
+}
+
+#cpbl { 
+    width: 99px;
+    height: 51px;
+}
+
+#nba {
+    width: 40px;
+    height: 60px;
+}
+
+#mlb {
+    width: 83px;
+    height: 44px;
+}
+
+#sbl {
+    width: 116px;
+    height: 34px;
+}
+
+.date{
+    position: absolute;
+    height: 50px;
+    top: 50%;
+    left: 25%;
+}
+.date h3{
+    font-family: "Arial","Microsoft JhengHei";
+    margin:0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*year*/
+.year{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.year_background{
+    position: absolute;
+    background-color: rgba(3, 124, 223, 0.74) ;
+    border: 10px white double;
+    left: 20%;
+    width: 65%;
+    height: 80px;
+}
+.year h1{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    color: white;
+    font-family: 'Arial', "Microsoft JhengHei";
+    font-size: 60px;
+}
+
+/********************************************************球隊戰績********************************************************/
+.team_score{
+    position: relative;
+    width: 100%;
+    height: 1400px;
+}
+.change_core a{
+    text-decoration: none;
+}
+.US{
+    position: absolute;
+    display: inline-block;
+    left:  20%;
+    border: 3px rgba(3, 124, 223, 0.74) solid;
+    width: 250px;
+    height: 50px;
+}
+.US h1{
+    margin: 0;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    line-height: 50px;
+    color: black;
+}
+.US:hover {
+    background: #08dffc;
+}
+.country{
+    position: absolute;
+    display: inline-block;
+    left: 33.5%;
+    border: 3px rgba(3, 124, 223, 0.74) solid;
+    width: 250px;
+    height: 50px;
+}
+.country h1{
+    margin: 0;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    line-height: 50px;
+    color: black;
+}
+.country:hover {
+    background: #08dffc;
+}
+
+
+/*分數*/
+.east table{
+    position: absolute;
+    width: 66%;
+    height: auto;
+    top: 8%;
+    left: 20%;
+}
+.center table{
+    position: absolute;
+    width: 66%;
+    height: auto;
+    top: 38%;
+    left: 20%;
+}
+.west table{
+    position: absolute;
+    width: 66%;
+    height: auto;
+    top: 68%;
+    left: 20%;
+}
+table th{
+    margin: 0;
+    padding:0;
+    font-family: 'Arial', "Microsoft JhengHei";
+    font-size: 25px;
+    border-bottom: 5px rgba(3, 124, 223, 0.74) double;
+}
+table td{
+    margin: 0;
+    padding: 5px auto;
+    font-family: 'Arial', "Microsoft JhengHei";
+    font-size: 20px;
+}
+
+/****************************************************CPBL & SBL戰績********************************/
+.cpbl_title{
+    position: absolute;
+    left:  20%;
+    top: 3%;
+    border: 3px rgba(3, 124, 223, 0.74) solid;
+    width: 250px;
+    height: 50px;  
+}
+.cpbl_title h1{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Arial";
+    line-height: 50px;
+    color: black;  
+}
+.cpbl_score table{
+    position: absolute;
+    width: 70%;
+    left: 18%;
+    top: 10%;
+}
+
+.sbl_title{
+    position: absolute;
+    left:  20%;
+    top: 40%;
+    border: 3px rgba(3, 124, 223, 0.74) solid;
+    width: 250px;
+    height: 50px;  
+}
+.sbl_title h1{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Arial";
+    line-height: 50px;
+    color: black;     
+}
+.sbl_score table{
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    top: 48%;
+}
+
+/**************************************NBA分數************************************************/
+.nba_east table{
+    position: absolute;
+    left: 18%;
+    width: 70%;
+    top: 10%;    
+}
+.nba_west table{
+    position: absolute;
+    left: 18%;
+    width: 70%;
+    top: 10%;    
+}
+
+/*fotter*/
+footer{
+    position: relative;
+    width:100%;
+    height: 200px;
+    background-color: #cccccc;
+}
+footer img{
+    width: 70px;
+    height: 40px;
+}
+#cpbl_footer{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#sbl_footer{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+#github_footer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+#mlb_footer{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+#nba_footer{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 40px;
+    height: 60px;
+}
+#qrcode{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 58%;
+    left: 51%;
+}
+footer p{
+    position: absolute;
+    font-family: 'Arial',"Microsoft JhengHei";
+    font-size: 15px;
+    top: 80%;
+    left: 45%;  
+}

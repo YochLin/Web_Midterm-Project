@@ -145,10 +145,55 @@ p{
     font-size: 20px;
 }
 
+/*fotter*/
 footer{
-    /* position: absolute; */
+    position: relative;
     width:100%;
-    height: 130px;
-    /* top: 200%; */
+    height: 200px;
     background-color: #cccccc;
+}
+footer img{
+    width: 70px;
+    height: 40px;
+}
+#cpbl_footer{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#sbl_footer{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+#github_footer{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+#mlb_footer{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+#nba_footer{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 40px;
+    height: 60px;
+}
+#qrcode{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 58%;
+    left: 51%;
+}
+footer p{
+    position: absolute;
+    font-family: 'Arial',"Microsoft JhengHei";
+    font-size: 15px;
+    top: 80%;
+    left: 45%;  
 }
